@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./styles/styling.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<script src="./main.js" defer></script>
+</head>
+<body id="container">
+    <header>
+        <a class="logo">Katleho<span>Monapati</span></a>
+
+        <nav class="nav-bar">
+                <a href="#about-me active" class="active">About Me</a>
+                <a href="#Project active">Projects</a>
+                <a href="#skill active">Skills</a>
+                <a href="contact.html">Contact</a>
+                <button id="button">MODE</button>   
+        </nav>
+    </header>
+    <section>
+        <div id="about-me active" class="about">
+            <img class="images" src="./styles/Kay-the beautiful.jpg" alt="A picture of Katleho">
+            <h3>About Me</h3>
+            <p>I am a passionate front-end engineering student with a keen eye for design and a love for bold colors. When I'm not coding, you'll often find me exploring the great outdoors, drawing inspiration from nature’s vibrant palette. I’m excited to bring my creative flair and technical skills to new and innovative projects in the world of web development.</p>
+        </div>
+        <div id="Project active" class="projects">
+            <h3>Projects</h3>
+            <details class="project">
+                <summary class="project-title"> Restaurant Website</summary>
+                <img src="./styles/Screenshot menu.png" alt="A picture of a menu">
+                <p class="project-description">This was a class project that I worked on by myself. It is mobile-responsive website.</p>
+            </details>
+            <details class="project">
+                <summary class="project-title">A Coding Website</summary>
+                <img src="./styles/Screenshot credit card.png" alt="A picture of credit card website">
+                <p class="project-description">This is website for those interested in gaining more knowledge and experience in coding. It features a monthly subscription which incorporates the help of JavaScript.</p>
+            </details>
+        </div>
+    </section>
+    <section id="skill active" class="skills">
+        <h3>Skills</h3>
+        <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-css3-alt"></i>
+        <i class="fa-brands fa-js"></i>
+        <i class="fa-brands fa-git"></i>
+        <i class="fa-brands fa-github"></i>
+    </section>
+</body>
+</html>
