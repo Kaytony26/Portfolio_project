@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #fff;
+    --secondary-color: #6e4f40;
+}
+.dark-theme {
+    --primary-color: #202A44;
+    --secondary-color: #e79670;
+}
+#container {
+    width: 100%;
+    height: 100vh;
+    font-size: 1.2rem;
+    font-family: roboto;
+    color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+}
+header {
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;  
+}
+
+#button {
+    margin-left: 20px;
+    position: relative;
+    top: 0;
+    width: 65px;
+    height: 30px;    
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #B8221A;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    transition: -3s;
+}
+#button:hover{
+    
+    color: #DC221A;
+}
+nav a {
+    text-decoration: none;
+    margin-left: 25px;
+    color: #CE4519;
+    font-weight: 500;
+    transition: -3s;
+}
+nav a:hover{
+    color: blueviolet;
+}
+h1, h2, h3 {
+   color: #BB6919;
+}
+.logo {
+    font-size: 36px;
+    font-family: "Dancing Script";
+    font-weight: 600;
+}
+span {
+    color: #E65719;    
+}
+
+.images {
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 3px solid #e79670;
+}
+.about {
+    margin: 10px;
+    padding: 10px;  
+}
+.projects {
+    margin: 10px;
+    padding: 10px; 
+}
+.projects img{
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    border: 2px solid #e79670;
+}
+.skills {
+    margin: 10px;
+    padding: 10px;
+}
+.fa-brands {
+    font-size: 35px;
+    width: 100px;
+    height: 100px;
+    color: black;
+}
+.contact {
+    margin: 10px;
+    padding: 10px;
+}
+.summary {
+    list-style-type: url("./arrow-png-images-3.png");
+}
+.fa-envelope {
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+    color: black;
+}
+@media screen and (max-width: 900px) {
+    header {
+        flex-wrap: wrap;
+        padding: 5px;   
+    } 
+    .logo {
+        font-size: 35px;
+        margin-bottom: 15px;
+    } 
+    nav a {
+        font-size: 17px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 15px;
+    }
+    #button {
+        font-size: 14px;
+        width: 55px;
+        height: 25px;    
+    } 
+    .images {
+        width: 160px;
+        height: 160px;   
+    }
+    .about {
+        font-size: 17px; 
+    }
+    .projects {
+        margin: 5px;
+        padding: 5px; 
+        font-size: 17px;
+    }
+    .projects img{
+        width: 200px;
+        height: 200px;
+    }
+    .skills {
+        font-size: 17px;
+        margin: 3px;
+        padding: 3px;
+    }
+    .fa-brands {
+        font-size: 30px;
+        width: 50px;
+        height: 50px;
+    }
+    .contact{
+        font-size: 17px;
+    }
+    .fa-envelope {
+        width: 55px;
+        height: 55px;
+        font-size: 30px;
+        
+    }
+}
+@media screen and (max-width: 600px) {
+    .logo {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    nav a {
+        font-size: 16px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 15px;
+    }  
+    .images {
+        width: 140px;
+        height: 140px;   
+    }
+    .about {
+        font-size: 16px; 
+    }
+    .projects { 
+        font-size: 16px;
+    }
+    .projects img{
+        width: 150px;
+        height: 150px;
+    }
+    .skills {
+        font-size: 16px;
+    }
+    .contact{
+        font-size: 16px;
+    }
+    .fa-envelope {
+        width: 50px;
+        height: 50px;
+        
+    }
+}
+
+
+
